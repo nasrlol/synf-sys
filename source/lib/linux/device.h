@@ -1,20 +1,3 @@
-/*
- * =====================================================================================
- *
- *       Filename:  general.c
- *
- *    Description: Retrieving basic information about the device
- *
- *        Version:  1.0
- *        Created:  05/08/2025 22:22:00
- *       Revision:  none
- *       Compiler:  clang 
- *
- *         Author:  nasr,
- *   Organization:  synf
- *
- * ===================================================================================== */
-
 // OSX 
 #ifdef __APPLE__
 
