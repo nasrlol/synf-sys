@@ -1,19 +1,35 @@
 #ifdef __APPLE__
 
-#include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <stddef.h>
+#include <sys/param.h>
+#include <sys/mount.h>
 
-#include <stdio.h>
-#include <stdint.h>
-#include <sys/types.h>
-#include <sys/sysctl.h>
-
-float disk_size();
+typedef struct {
+    long long size;
+    ushort name;
+} disk_s;
 
 
+void* disk_size();
+
+disk_s disk__s;
+
+void* disk_size(){
+
+    struct statfs disk;
+    
+    statfs("/", &disk);
+
+    disk__s.size = disk.f_bfree;
+    return NULL; 
+}
+
+void* get_disk_info(){
+
+    printf("free disk space: %llu\n", disk__s.size);
+
+    return NULL;
+}
 
 #endif
 

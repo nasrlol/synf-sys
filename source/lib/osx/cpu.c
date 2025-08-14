@@ -11,38 +11,58 @@
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-float cpu_frequency(void);
-char* cpu_name(void);
+void* cpu_name();
+void* cpu_thread_count();
 
-float cpu_frequency(void)
-{
-    uint64_t freq = 0;
-    size_t size = sizeof(freq);
+typedef struct {
 
-    if (sysctlbyname("hw.cpufrequency", &freq, &size, NULL, 0) < 0)
-    {
-        perror("sysctl");
-    }
-    return freq;
-}
+    int frequency;
+    char* name;
+    int threads;
 
-char* cpu_name(void){
-
-    size_t size = 0;
-
-    if (sysctlbyname("machdep.cpu.brand_string", NULL, &size, NULL, 0) < 0)
-        perror("sysctl"); 
+} cpu_s;
 
 
-    char *name = malloc(size);
+cpu_s cpu;
 
-    if(sysctlbyname("machdep.cpu.brand_string", &name, &size, NULL, 0) < 0){
-        perror("sysctl");
+void* cpu_name(){
+
+    char *name;
+    size_t len = 0;
+
+    if (sysctlbyname("machdep.cpu.brand_string", NULL, &len, NULL, 0) < 0)
+        perror("errorn in assigning the size for the cpu name variable\n"); 
+
+    name = malloc(len);
+
+    if(sysctlbyname("machdep.cpu.brand_string", name, &len, NULL, 0) < 0){
+        perror("error in assigning the value to the cpu name variable\n");
+
         free(name);
         return NULL;
     }
+    
+    cpu.name = name;
+    return NULL;
+}
 
-   return name;  
+void* cpu_threads(){
+
+    int count;
+    size_t len = sizeof(count);
+    if (sysctlbyname("machdep.cpu.thread_count", &count, &len, NULL, 0) < 0)
+        perror("error in retrieving the cpu threads count\n");
+
+    cpu.threads = count;
+    return NULL;
+}
+
+void* cpu_info(){
+    cpu_threads();
+    cpu_name();
+
+    printf("cpu name: %s\ncpu threads: %d\n", cpu.name, cpu.threads);
+    return NULL;
 }
 
 #endif

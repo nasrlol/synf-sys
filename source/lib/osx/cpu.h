@@ -3,8 +3,9 @@
 
 #ifdef __APPLE__
 
-float cpu_frequency(void);
-char* cpu_name(void);
+void* cpu_name();
+void* cpu_threads();
+void* cpu_info();
 
 #endif
 #endif

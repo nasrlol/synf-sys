@@ -153,6 +153,78 @@ source/lib/osx/cpu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/cpu.c.s
 .PHONY : source/lib/osx/cpu.c.s
 
+source/lib/osx/device.o: source/lib/osx/device.c.o
+.PHONY : source/lib/osx/device.o
+
+# target to build an object file
+source/lib/osx/device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/device.c.o
+.PHONY : source/lib/osx/device.c.o
+
+source/lib/osx/device.i: source/lib/osx/device.c.i
+.PHONY : source/lib/osx/device.i
+
+# target to preprocess a source file
+source/lib/osx/device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/device.c.i
+.PHONY : source/lib/osx/device.c.i
+
+source/lib/osx/device.s: source/lib/osx/device.c.s
+.PHONY : source/lib/osx/device.s
+
+# target to generate assembly for a file
+source/lib/osx/device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/device.c.s
+.PHONY : source/lib/osx/device.c.s
+
+source/lib/osx/disk.o: source/lib/osx/disk.c.o
+.PHONY : source/lib/osx/disk.o
+
+# target to build an object file
+source/lib/osx/disk.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/disk.c.o
+.PHONY : source/lib/osx/disk.c.o
+
+source/lib/osx/disk.i: source/lib/osx/disk.c.i
+.PHONY : source/lib/osx/disk.i
+
+# target to preprocess a source file
+source/lib/osx/disk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/disk.c.i
+.PHONY : source/lib/osx/disk.c.i
+
+source/lib/osx/disk.s: source/lib/osx/disk.c.s
+.PHONY : source/lib/osx/disk.s
+
+# target to generate assembly for a file
+source/lib/osx/disk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/disk.c.s
+.PHONY : source/lib/osx/disk.c.s
+
+source/lib/osx/ram.o: source/lib/osx/ram.c.o
+.PHONY : source/lib/osx/ram.o
+
+# target to build an object file
+source/lib/osx/ram.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/ram.c.o
+.PHONY : source/lib/osx/ram.c.o
+
+source/lib/osx/ram.i: source/lib/osx/ram.c.i
+.PHONY : source/lib/osx/ram.i
+
+# target to preprocess a source file
+source/lib/osx/ram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/ram.c.i
+.PHONY : source/lib/osx/ram.c.i
+
+source/lib/osx/ram.s: source/lib/osx/ram.c.s
+.PHONY : source/lib/osx/ram.s
+
+# target to generate assembly for a file
+source/lib/osx/ram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/osx/ram.c.s
+.PHONY : source/lib/osx/ram.c.s
+
 source/main.o: source/main.c.o
 .PHONY : source/main.o
 
@@ -189,6 +261,15 @@ help:
 	@echo "... source/lib/osx/cpu.o"
 	@echo "... source/lib/osx/cpu.i"
 	@echo "... source/lib/osx/cpu.s"
+	@echo "... source/lib/osx/device.o"
+	@echo "... source/lib/osx/device.i"
+	@echo "... source/lib/osx/device.s"
+	@echo "... source/lib/osx/disk.o"
+	@echo "... source/lib/osx/disk.i"
+	@echo "... source/lib/osx/disk.s"
+	@echo "... source/lib/osx/ram.o"
+	@echo "... source/lib/osx/ram.i"
+	@echo "... source/lib/osx/ram.s"
 	@echo "... source/main.o"
 	@echo "... source/main.i"
 	@echo "... source/main.s"

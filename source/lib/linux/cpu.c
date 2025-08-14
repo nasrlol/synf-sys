@@ -38,7 +38,6 @@ void cpu_name(void)
                 int err = fclose(fp);
                 if (err != 0)
                     printf("error closing /proc/cpuinfo");
-
             }
         }
     }
