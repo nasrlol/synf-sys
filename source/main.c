@@ -42,6 +42,7 @@ void handler(void){
 
 
 int main(int argc, char** argv) {
+
     pthread_t cpu_t;
     pthread_t ram_t;
     pthread_t disk_t;
