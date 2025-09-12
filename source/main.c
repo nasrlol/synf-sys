@@ -29,4 +29,4 @@ int main(int argc, char** argv) {
     pthread_join(device_t, NULL);
 
     return 0;
-} 
+}
