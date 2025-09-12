@@ -29,7 +29,7 @@ jobs:
         ctest
 
     - name: Create release artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: synf-sys
         path: build/my_program
