@@ -1,32 +1,56 @@
 [
 {
   "directory": "/Users/nasr/synf/synf-sys/build",
-  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx  -arch arm64 -o CMakeFiles/main.dir/source/main.c.o -c /Users/nasr/synf/synf-sys/source/main.c",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/main.c.o -c /Users/nasr/synf/synf-sys/source/main.c",
   "file": "/Users/nasr/synf/synf-sys/source/main.c",
   "output": "CMakeFiles/main.dir/source/main.c.o"
 },
 {
   "directory": "/Users/nasr/synf/synf-sys/build",
-  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/cpu.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/cpu.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c",
   "file": "/Users/nasr/synf/synf-sys/source/lib/osx/cpu.c",
   "output": "CMakeFiles/main.dir/source/lib/osx/cpu.c.o"
 },
 {
   "directory": "/Users/nasr/synf/synf-sys/build",
-  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/ram.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/ram.c",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/ram.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/ram.c",
   "file": "/Users/nasr/synf/synf-sys/source/lib/osx/ram.c",
   "output": "CMakeFiles/main.dir/source/lib/osx/ram.c.o"
 },
 {
   "directory": "/Users/nasr/synf/synf-sys/build",
-  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/disk.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/disk.c",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/disk.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/disk.c",
   "file": "/Users/nasr/synf/synf-sys/source/lib/osx/disk.c",
   "output": "CMakeFiles/main.dir/source/lib/osx/disk.c.o"
 },
 {
   "directory": "/Users/nasr/synf/synf-sys/build",
-  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/device.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/device.c",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/osx/device.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/device.c",
   "file": "/Users/nasr/synf/synf-sys/source/lib/osx/device.c",
   "output": "CMakeFiles/main.dir/source/lib/osx/device.c.o"
+},
+{
+  "directory": "/Users/nasr/synf/synf-sys/build",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/linux/cpu.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/cpu.c",
+  "file": "/Users/nasr/synf/synf-sys/source/lib/linux/cpu.c",
+  "output": "CMakeFiles/main.dir/source/lib/linux/cpu.c.o"
+},
+{
+  "directory": "/Users/nasr/synf/synf-sys/build",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/linux/ram.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/ram.c",
+  "file": "/Users/nasr/synf/synf-sys/source/lib/linux/ram.c",
+  "output": "CMakeFiles/main.dir/source/lib/linux/ram.c.o"
+},
+{
+  "directory": "/Users/nasr/synf/synf-sys/build",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/linux/disk.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/disk.c",
+  "file": "/Users/nasr/synf/synf-sys/source/lib/linux/disk.c",
+  "output": "CMakeFiles/main.dir/source/lib/linux/disk.c.o"
+},
+{
+  "directory": "/Users/nasr/synf/synf-sys/build",
+  "command": "/usr/bin/cc  -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux  -arch arm64 -o CMakeFiles/main.dir/source/lib/linux/device.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/device.c",
+  "file": "/Users/nasr/synf/synf-sys/source/lib/linux/device.c",
+  "output": "CMakeFiles/main.dir/source/lib/linux/device.c.o"
 }
 ]

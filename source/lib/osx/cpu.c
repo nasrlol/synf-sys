@@ -31,7 +31,7 @@ void* cpu_name(){
     size_t len = 0;
 
     if (sysctlbyname("machdep.cpu.brand_string", NULL, &len, NULL, 0) < 0)
-        perror("errorn in assigning the size for the cpu name variable\n"); 
+        perror("errorn in assigning the size for the cpu name variable\n");
 
     name = malloc(len);
 
@@ -41,7 +41,7 @@ void* cpu_name(){
         free(name);
         return NULL;
     }
-    
+
     cpu.name = name;
     return NULL;
 }
@@ -66,4 +66,3 @@ void* cpu_info(){
 }
 
 #endif
-

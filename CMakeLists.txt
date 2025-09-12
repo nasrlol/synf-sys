@@ -16,7 +16,6 @@ ADD_EXECUTABLE(main
     source/lib/linux/ram.c
     source/lib/linux/disk.c
     source/lib/linux/device.c
-        source/lib/api/handler.c
 
 )
 

@@ -129,6 +129,102 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+source/lib/linux/cpu.o: source/lib/linux/cpu.c.o
+.PHONY : source/lib/linux/cpu.o
+
+# target to build an object file
+source/lib/linux/cpu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/cpu.c.o
+.PHONY : source/lib/linux/cpu.c.o
+
+source/lib/linux/cpu.i: source/lib/linux/cpu.c.i
+.PHONY : source/lib/linux/cpu.i
+
+# target to preprocess a source file
+source/lib/linux/cpu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/cpu.c.i
+.PHONY : source/lib/linux/cpu.c.i
+
+source/lib/linux/cpu.s: source/lib/linux/cpu.c.s
+.PHONY : source/lib/linux/cpu.s
+
+# target to generate assembly for a file
+source/lib/linux/cpu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/cpu.c.s
+.PHONY : source/lib/linux/cpu.c.s
+
+source/lib/linux/device.o: source/lib/linux/device.c.o
+.PHONY : source/lib/linux/device.o
+
+# target to build an object file
+source/lib/linux/device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/device.c.o
+.PHONY : source/lib/linux/device.c.o
+
+source/lib/linux/device.i: source/lib/linux/device.c.i
+.PHONY : source/lib/linux/device.i
+
+# target to preprocess a source file
+source/lib/linux/device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/device.c.i
+.PHONY : source/lib/linux/device.c.i
+
+source/lib/linux/device.s: source/lib/linux/device.c.s
+.PHONY : source/lib/linux/device.s
+
+# target to generate assembly for a file
+source/lib/linux/device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/device.c.s
+.PHONY : source/lib/linux/device.c.s
+
+source/lib/linux/disk.o: source/lib/linux/disk.c.o
+.PHONY : source/lib/linux/disk.o
+
+# target to build an object file
+source/lib/linux/disk.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/disk.c.o
+.PHONY : source/lib/linux/disk.c.o
+
+source/lib/linux/disk.i: source/lib/linux/disk.c.i
+.PHONY : source/lib/linux/disk.i
+
+# target to preprocess a source file
+source/lib/linux/disk.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/disk.c.i
+.PHONY : source/lib/linux/disk.c.i
+
+source/lib/linux/disk.s: source/lib/linux/disk.c.s
+.PHONY : source/lib/linux/disk.s
+
+# target to generate assembly for a file
+source/lib/linux/disk.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/disk.c.s
+.PHONY : source/lib/linux/disk.c.s
+
+source/lib/linux/ram.o: source/lib/linux/ram.c.o
+.PHONY : source/lib/linux/ram.o
+
+# target to build an object file
+source/lib/linux/ram.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/ram.c.o
+.PHONY : source/lib/linux/ram.c.o
+
+source/lib/linux/ram.i: source/lib/linux/ram.c.i
+.PHONY : source/lib/linux/ram.i
+
+# target to preprocess a source file
+source/lib/linux/ram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/ram.c.i
+.PHONY : source/lib/linux/ram.c.i
+
+source/lib/linux/ram.s: source/lib/linux/ram.c.s
+.PHONY : source/lib/linux/ram.s
+
+# target to generate assembly for a file
+source/lib/linux/ram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/lib/linux/ram.c.s
+.PHONY : source/lib/linux/ram.c.s
+
 source/lib/osx/cpu.o: source/lib/osx/cpu.c.o
 .PHONY : source/lib/osx/cpu.o
 
@@ -258,6 +354,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... source/lib/linux/cpu.o"
+	@echo "... source/lib/linux/cpu.i"
+	@echo "... source/lib/linux/cpu.s"
+	@echo "... source/lib/linux/device.o"
+	@echo "... source/lib/linux/device.i"
+	@echo "... source/lib/linux/device.s"
+	@echo "... source/lib/linux/disk.o"
+	@echo "... source/lib/linux/disk.i"
+	@echo "... source/lib/linux/disk.s"
+	@echo "... source/lib/linux/ram.o"
+	@echo "... source/lib/linux/ram.i"
+	@echo "... source/lib/linux/ram.s"
 	@echo "... source/lib/osx/cpu.o"
 	@echo "... source/lib/osx/cpu.i"
 	@echo "... source/lib/osx/cpu.s"

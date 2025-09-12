@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/source/lib/linux/cpu.c.o"
+  "CMakeFiles/main.dir/source/lib/linux/cpu.c.o.d"
+  "CMakeFiles/main.dir/source/lib/linux/device.c.o"
+  "CMakeFiles/main.dir/source/lib/linux/device.c.o.d"
+  "CMakeFiles/main.dir/source/lib/linux/disk.c.o"
+  "CMakeFiles/main.dir/source/lib/linux/disk.c.o.d"
+  "CMakeFiles/main.dir/source/lib/linux/ram.c.o"
+  "CMakeFiles/main.dir/source/lib/linux/ram.c.o.d"
   "CMakeFiles/main.dir/source/lib/osx/cpu.c.o"
   "CMakeFiles/main.dir/source/lib/osx/cpu.c.o.d"
   "CMakeFiles/main.dir/source/lib/osx/device.c.o"

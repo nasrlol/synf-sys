@@ -3,18 +3,6 @@
 
 CMakeFiles/main.dir/source/lib/osx/cpu.c.o
  /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_header_macro.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_null.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_ptrdiff_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -178,12 +166,21 @@ CMakeFiles/main.dir/source/lib/osx/cpu.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
 
 CMakeFiles/main.dir/source/lib/osx/device.c.o
  /Users/nasr/synf/synf-sys/source/lib/osx/device.c
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -336,13 +333,13 @@ CMakeFiles/main.dir/source/lib/osx/device.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/vm.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
  /Users/nasr/synf/synf-sys/source/lib/osx/device.h
 
 CMakeFiles/main.dir/source/lib/osx/disk.c.o
  /Users/nasr/synf/synf-sys/source/lib/osx/disk.c
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -485,21 +482,12 @@ CMakeFiles/main.dir/source/lib/osx/disk.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/ucred.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
 
 CMakeFiles/main.dir/source/lib/osx/ram.c.o
  /Users/nasr/synf/synf-sys/source/lib/osx/ram.c
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_header_macro.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_max_align_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_null.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_ptrdiff_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_rsize_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_wchar_t.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -663,10 +651,21 @@ CMakeFiles/main.dir/source/lib/osx/ram.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
 
 CMakeFiles/main.dir/source/main.c.o
  /Users/nasr/synf/synf-sys/source/main.c
- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
@@ -727,6 +726,7 @@ CMakeFiles/main.dir/source/main.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h
+ /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
  /Users/nasr/synf/synf-sys/source/lib/osx/cpu.h
  /Users/nasr/synf/synf-sys/source/lib/osx/device.h
  /Users/nasr/synf/synf-sys/source/lib/osx/disk.h

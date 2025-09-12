@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/nasr/synf/synf-sys/source/lib/linux/cpu.c" "CMakeFiles/main.dir/source/lib/linux/cpu.c.o" "gcc" "CMakeFiles/main.dir/source/lib/linux/cpu.c.o.d"
+  "/Users/nasr/synf/synf-sys/source/lib/linux/device.c" "CMakeFiles/main.dir/source/lib/linux/device.c.o" "gcc" "CMakeFiles/main.dir/source/lib/linux/device.c.o.d"
+  "/Users/nasr/synf/synf-sys/source/lib/linux/disk.c" "CMakeFiles/main.dir/source/lib/linux/disk.c.o" "gcc" "CMakeFiles/main.dir/source/lib/linux/disk.c.o.d"
+  "/Users/nasr/synf/synf-sys/source/lib/linux/ram.c" "CMakeFiles/main.dir/source/lib/linux/ram.c.o" "gcc" "CMakeFiles/main.dir/source/lib/linux/ram.c.o.d"
   "/Users/nasr/synf/synf-sys/source/lib/osx/cpu.c" "CMakeFiles/main.dir/source/lib/osx/cpu.c.o" "gcc" "CMakeFiles/main.dir/source/lib/osx/cpu.c.o.d"
   "/Users/nasr/synf/synf-sys/source/lib/osx/device.c" "CMakeFiles/main.dir/source/lib/osx/device.c.o" "gcc" "CMakeFiles/main.dir/source/lib/osx/device.c.o.d"
   "/Users/nasr/synf/synf-sys/source/lib/osx/disk.c" "CMakeFiles/main.dir/source/lib/osx/disk.c.o" "gcc" "CMakeFiles/main.dir/source/lib/osx/disk.c.o.d"
