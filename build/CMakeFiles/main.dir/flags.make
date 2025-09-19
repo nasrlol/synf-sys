@@ -4,9 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/nasr/synf/synf-sys/source/lib/osx -I/Users/nasr/synf/synf-sys/source/lib/linux
+C_INCLUDES = -I/home/nasr/synf-sys/source/lib/osx -I/home/nasr/synf-sys/source/lib/linux
 
-C_FLAGSarm64 =  -arch arm64
-
-C_FLAGS =  -arch arm64
+C_FLAGS = 
 

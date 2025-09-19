@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/link.d"
   "CMakeFiles/main.dir/source/lib/linux/cpu.c.o"
   "CMakeFiles/main.dir/source/lib/linux/cpu.c.o.d"
   "CMakeFiles/main.dir/source/lib/linux/device.c.o"

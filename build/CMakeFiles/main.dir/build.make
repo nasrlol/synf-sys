@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nasr/synf/synf-sys
+CMAKE_SOURCE_DIR = /home/nasr/synf-sys
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nasr/synf/synf-sys/build
+CMAKE_BINARY_DIR = /home/nasr/synf-sys/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -73,130 +73,130 @@ CMakeFiles/main.dir/codegen:
 .PHONY : CMakeFiles/main.dir/codegen
 
 CMakeFiles/main.dir/source/main.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/main.c.o: /Users/nasr/synf/synf-sys/source/main.c
+CMakeFiles/main.dir/source/main.c.o: /home/nasr/synf-sys/source/main.c
 CMakeFiles/main.dir/source/main.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/source/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/main.c.o -MF CMakeFiles/main.dir/source/main.c.o.d -o CMakeFiles/main.dir/source/main.c.o -c /Users/nasr/synf/synf-sys/source/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/source/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/main.c.o -MF CMakeFiles/main.dir/source/main.c.o.d -o CMakeFiles/main.dir/source/main.c.o -c /home/nasr/synf-sys/source/main.c
 
 CMakeFiles/main.dir/source/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/main.c > CMakeFiles/main.dir/source/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/main.c > CMakeFiles/main.dir/source/main.c.i
 
 CMakeFiles/main.dir/source/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/main.c -o CMakeFiles/main.dir/source/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/main.c -o CMakeFiles/main.dir/source/main.c.s
 
 CMakeFiles/main.dir/source/lib/osx/cpu.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/osx/cpu.c.o: /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c
+CMakeFiles/main.dir/source/lib/osx/cpu.c.o: /home/nasr/synf-sys/source/lib/osx/cpu.c
 CMakeFiles/main.dir/source/lib/osx/cpu.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/source/lib/osx/cpu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/cpu.c.o -MF CMakeFiles/main.dir/source/lib/osx/cpu.c.o.d -o CMakeFiles/main.dir/source/lib/osx/cpu.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/source/lib/osx/cpu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/cpu.c.o -MF CMakeFiles/main.dir/source/lib/osx/cpu.c.o.d -o CMakeFiles/main.dir/source/lib/osx/cpu.c.o -c /home/nasr/synf-sys/source/lib/osx/cpu.c
 
 CMakeFiles/main.dir/source/lib/osx/cpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/osx/cpu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c > CMakeFiles/main.dir/source/lib/osx/cpu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/osx/cpu.c > CMakeFiles/main.dir/source/lib/osx/cpu.c.i
 
 CMakeFiles/main.dir/source/lib/osx/cpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/osx/cpu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/osx/cpu.c -o CMakeFiles/main.dir/source/lib/osx/cpu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/osx/cpu.c -o CMakeFiles/main.dir/source/lib/osx/cpu.c.s
 
 CMakeFiles/main.dir/source/lib/osx/ram.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/osx/ram.c.o: /Users/nasr/synf/synf-sys/source/lib/osx/ram.c
+CMakeFiles/main.dir/source/lib/osx/ram.c.o: /home/nasr/synf-sys/source/lib/osx/ram.c
 CMakeFiles/main.dir/source/lib/osx/ram.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/source/lib/osx/ram.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/ram.c.o -MF CMakeFiles/main.dir/source/lib/osx/ram.c.o.d -o CMakeFiles/main.dir/source/lib/osx/ram.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/ram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/source/lib/osx/ram.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/ram.c.o -MF CMakeFiles/main.dir/source/lib/osx/ram.c.o.d -o CMakeFiles/main.dir/source/lib/osx/ram.c.o -c /home/nasr/synf-sys/source/lib/osx/ram.c
 
 CMakeFiles/main.dir/source/lib/osx/ram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/osx/ram.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/osx/ram.c > CMakeFiles/main.dir/source/lib/osx/ram.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/osx/ram.c > CMakeFiles/main.dir/source/lib/osx/ram.c.i
 
 CMakeFiles/main.dir/source/lib/osx/ram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/osx/ram.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/osx/ram.c -o CMakeFiles/main.dir/source/lib/osx/ram.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/osx/ram.c -o CMakeFiles/main.dir/source/lib/osx/ram.c.s
 
 CMakeFiles/main.dir/source/lib/osx/disk.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/osx/disk.c.o: /Users/nasr/synf/synf-sys/source/lib/osx/disk.c
+CMakeFiles/main.dir/source/lib/osx/disk.c.o: /home/nasr/synf-sys/source/lib/osx/disk.c
 CMakeFiles/main.dir/source/lib/osx/disk.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/source/lib/osx/disk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/disk.c.o -MF CMakeFiles/main.dir/source/lib/osx/disk.c.o.d -o CMakeFiles/main.dir/source/lib/osx/disk.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/disk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/source/lib/osx/disk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/disk.c.o -MF CMakeFiles/main.dir/source/lib/osx/disk.c.o.d -o CMakeFiles/main.dir/source/lib/osx/disk.c.o -c /home/nasr/synf-sys/source/lib/osx/disk.c
 
 CMakeFiles/main.dir/source/lib/osx/disk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/osx/disk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/osx/disk.c > CMakeFiles/main.dir/source/lib/osx/disk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/osx/disk.c > CMakeFiles/main.dir/source/lib/osx/disk.c.i
 
 CMakeFiles/main.dir/source/lib/osx/disk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/osx/disk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/osx/disk.c -o CMakeFiles/main.dir/source/lib/osx/disk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/osx/disk.c -o CMakeFiles/main.dir/source/lib/osx/disk.c.s
 
 CMakeFiles/main.dir/source/lib/osx/device.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/osx/device.c.o: /Users/nasr/synf/synf-sys/source/lib/osx/device.c
+CMakeFiles/main.dir/source/lib/osx/device.c.o: /home/nasr/synf-sys/source/lib/osx/device.c
 CMakeFiles/main.dir/source/lib/osx/device.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/source/lib/osx/device.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/device.c.o -MF CMakeFiles/main.dir/source/lib/osx/device.c.o.d -o CMakeFiles/main.dir/source/lib/osx/device.c.o -c /Users/nasr/synf/synf-sys/source/lib/osx/device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/source/lib/osx/device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/osx/device.c.o -MF CMakeFiles/main.dir/source/lib/osx/device.c.o.d -o CMakeFiles/main.dir/source/lib/osx/device.c.o -c /home/nasr/synf-sys/source/lib/osx/device.c
 
 CMakeFiles/main.dir/source/lib/osx/device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/osx/device.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/osx/device.c > CMakeFiles/main.dir/source/lib/osx/device.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/osx/device.c > CMakeFiles/main.dir/source/lib/osx/device.c.i
 
 CMakeFiles/main.dir/source/lib/osx/device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/osx/device.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/osx/device.c -o CMakeFiles/main.dir/source/lib/osx/device.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/osx/device.c -o CMakeFiles/main.dir/source/lib/osx/device.c.s
 
 CMakeFiles/main.dir/source/lib/linux/cpu.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/linux/cpu.c.o: /Users/nasr/synf/synf-sys/source/lib/linux/cpu.c
+CMakeFiles/main.dir/source/lib/linux/cpu.c.o: /home/nasr/synf-sys/source/lib/linux/cpu.c
 CMakeFiles/main.dir/source/lib/linux/cpu.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/source/lib/linux/cpu.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/cpu.c.o -MF CMakeFiles/main.dir/source/lib/linux/cpu.c.o.d -o CMakeFiles/main.dir/source/lib/linux/cpu.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/cpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/source/lib/linux/cpu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/cpu.c.o -MF CMakeFiles/main.dir/source/lib/linux/cpu.c.o.d -o CMakeFiles/main.dir/source/lib/linux/cpu.c.o -c /home/nasr/synf-sys/source/lib/linux/cpu.c
 
 CMakeFiles/main.dir/source/lib/linux/cpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/linux/cpu.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/linux/cpu.c > CMakeFiles/main.dir/source/lib/linux/cpu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/linux/cpu.c > CMakeFiles/main.dir/source/lib/linux/cpu.c.i
 
 CMakeFiles/main.dir/source/lib/linux/cpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/linux/cpu.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/linux/cpu.c -o CMakeFiles/main.dir/source/lib/linux/cpu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/linux/cpu.c -o CMakeFiles/main.dir/source/lib/linux/cpu.c.s
 
 CMakeFiles/main.dir/source/lib/linux/ram.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/linux/ram.c.o: /Users/nasr/synf/synf-sys/source/lib/linux/ram.c
+CMakeFiles/main.dir/source/lib/linux/ram.c.o: /home/nasr/synf-sys/source/lib/linux/ram.c
 CMakeFiles/main.dir/source/lib/linux/ram.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/source/lib/linux/ram.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/ram.c.o -MF CMakeFiles/main.dir/source/lib/linux/ram.c.o.d -o CMakeFiles/main.dir/source/lib/linux/ram.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/ram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/source/lib/linux/ram.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/ram.c.o -MF CMakeFiles/main.dir/source/lib/linux/ram.c.o.d -o CMakeFiles/main.dir/source/lib/linux/ram.c.o -c /home/nasr/synf-sys/source/lib/linux/ram.c
 
 CMakeFiles/main.dir/source/lib/linux/ram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/linux/ram.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/linux/ram.c > CMakeFiles/main.dir/source/lib/linux/ram.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/linux/ram.c > CMakeFiles/main.dir/source/lib/linux/ram.c.i
 
 CMakeFiles/main.dir/source/lib/linux/ram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/linux/ram.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/linux/ram.c -o CMakeFiles/main.dir/source/lib/linux/ram.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/linux/ram.c -o CMakeFiles/main.dir/source/lib/linux/ram.c.s
 
 CMakeFiles/main.dir/source/lib/linux/disk.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/linux/disk.c.o: /Users/nasr/synf/synf-sys/source/lib/linux/disk.c
+CMakeFiles/main.dir/source/lib/linux/disk.c.o: /home/nasr/synf-sys/source/lib/linux/disk.c
 CMakeFiles/main.dir/source/lib/linux/disk.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/source/lib/linux/disk.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/disk.c.o -MF CMakeFiles/main.dir/source/lib/linux/disk.c.o.d -o CMakeFiles/main.dir/source/lib/linux/disk.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/disk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/source/lib/linux/disk.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/disk.c.o -MF CMakeFiles/main.dir/source/lib/linux/disk.c.o.d -o CMakeFiles/main.dir/source/lib/linux/disk.c.o -c /home/nasr/synf-sys/source/lib/linux/disk.c
 
 CMakeFiles/main.dir/source/lib/linux/disk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/linux/disk.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/linux/disk.c > CMakeFiles/main.dir/source/lib/linux/disk.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/linux/disk.c > CMakeFiles/main.dir/source/lib/linux/disk.c.i
 
 CMakeFiles/main.dir/source/lib/linux/disk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/linux/disk.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/linux/disk.c -o CMakeFiles/main.dir/source/lib/linux/disk.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/linux/disk.c -o CMakeFiles/main.dir/source/lib/linux/disk.c.s
 
 CMakeFiles/main.dir/source/lib/linux/device.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/source/lib/linux/device.c.o: /Users/nasr/synf/synf-sys/source/lib/linux/device.c
+CMakeFiles/main.dir/source/lib/linux/device.c.o: /home/nasr/synf-sys/source/lib/linux/device.c
 CMakeFiles/main.dir/source/lib/linux/device.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/source/lib/linux/device.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/device.c.o -MF CMakeFiles/main.dir/source/lib/linux/device.c.o.d -o CMakeFiles/main.dir/source/lib/linux/device.c.o -c /Users/nasr/synf/synf-sys/source/lib/linux/device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/source/lib/linux/device.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/source/lib/linux/device.c.o -MF CMakeFiles/main.dir/source/lib/linux/device.c.o.d -o CMakeFiles/main.dir/source/lib/linux/device.c.o -c /home/nasr/synf-sys/source/lib/linux/device.c
 
 CMakeFiles/main.dir/source/lib/linux/device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/main.dir/source/lib/linux/device.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nasr/synf/synf-sys/source/lib/linux/device.c > CMakeFiles/main.dir/source/lib/linux/device.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nasr/synf-sys/source/lib/linux/device.c > CMakeFiles/main.dir/source/lib/linux/device.c.i
 
 CMakeFiles/main.dir/source/lib/linux/device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/main.dir/source/lib/linux/device.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nasr/synf/synf-sys/source/lib/linux/device.c -o CMakeFiles/main.dir/source/lib/linux/device.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nasr/synf-sys/source/lib/linux/device.c -o CMakeFiles/main.dir/source/lib/linux/device.c.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -223,8 +223,9 @@ main: CMakeFiles/main.dir/source/lib/linux/ram.c.o
 main: CMakeFiles/main.dir/source/lib/linux/disk.c.o
 main: CMakeFiles/main.dir/source/lib/linux/device.c.o
 main: CMakeFiles/main.dir/build.make
+main: CMakeFiles/main.dir/compiler_depend.ts
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nasr/synf/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nasr/synf-sys/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -236,6 +237,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /Users/nasr/synf/synf-sys/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nasr/synf/synf-sys /Users/nasr/synf/synf-sys /Users/nasr/synf/synf-sys/build /Users/nasr/synf/synf-sys/build /Users/nasr/synf/synf-sys/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nasr/synf-sys/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nasr/synf-sys /home/nasr/synf-sys /home/nasr/synf-sys/build /home/nasr/synf-sys/build /home/nasr/synf-sys/build/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

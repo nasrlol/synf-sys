@@ -4,23 +4,37 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-
 #include <stdio.h>
 #include <stdint.h>
 #include <sys/types.h>
+#include <stdbool.h>
 
 #define MAXC 1024
 #define MAXC_CHAR 256
 
-void cpu_name(void);
-void cpu_temperature(unsigned short delay);
-char* cpu_frequency(void);
+typedef struct {
 
-void cpu_name(void)
+   int frequency;
+   char* name;
+   int threads;
+
+} cpu_s;
+
+
+
+void* name();
+void* temperature(bool isCelcius);
+void* frequency();
+
+
+cpu_s _cpu;
+
+void* cpu_name()
 {
     int buffer_size = 256;
     char cpu_name[buffer_size];
 
+    printf("Opening the CPU information files");
     FILE *fp = fopen("/proc/cpuinfo", "r");
     if (!fp)
         printf("can't open /proc/cpuinfo");
@@ -42,12 +56,13 @@ void cpu_name(void)
         }
     }
 
-    printf("%s", cpu_name);
-    snprintf(cpu_name, buffer_size, "%s", cpu_name);
+    _cpu.name = cpu_name;
+
+    return NULL;
 }
 
-void cpu_temperature(unsigned short delay)
-{
+void cpu_temperature(bool on, bool isCelcius, int delay){
+
     while (1)
     {
         sleep(delay);
@@ -67,7 +82,7 @@ void cpu_temperature(unsigned short delay)
     }
 }
 
-char* cpu_frequency(void) {
+char* cpu_frequency() {
     char* buffer = malloc(MAXC_CHAR);
 
     FILE *fp = fopen("/proc/cpuinfo", "r");
