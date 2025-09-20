@@ -5,23 +5,14 @@
 #include <string.h>
 #include <unistd.h>
 #include <stddef.h>
-
 #include <stdio.h>
 #include <stdint.h>
 #include <sys/types.h>
 #include <sys/sysctl.h>
+#include "cpu.h"
 
 void* cpu_name();
 void* cpu_thread_count();
-
-typedef struct {
-
-    int frequency;
-    char* name;
-    int threads;
-
-} cpu_s;
-
 
 cpu_s cpu;
 

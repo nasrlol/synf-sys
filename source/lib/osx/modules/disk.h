@@ -5,5 +5,11 @@
 
 void* disk_size();
 
-#endif 
+typedef struct {
+    long long size;
+    short name;
+} disk_s;
+
+
+#endif
 #endif
