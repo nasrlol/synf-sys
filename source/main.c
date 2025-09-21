@@ -1,9 +1,18 @@
 #include <pthread.h>
-// fix includes
+#include "modules/cpu.h"
+#include "modules/ram.h"
+#include "modules/disk.h"
+#include "modules/device.h"
 #include <curl/curl.h>
 #include <cjson/cJSON.h>
 
-void handler(char *url) {
+void data_to_json(){
+
+
+
+}
+
+void handler(char *url, cJSON object) {
     CURL *curl;
     CURLcode res;
 
@@ -13,7 +22,6 @@ void handler(char *url) {
     if (curl) {
         curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
         curl_easy_setopt(curl, CURLOPT_URL, url);
-        // pass object properly
         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, object);
 
         res = curl_easy_perform(curl);
@@ -29,7 +37,6 @@ void handler(char *url) {
 void setup_mt() {
     pthread_t cpu_t,ram_t,disk_t, device_t;
 
-    // fix with the includes
     pthread_create(&cpu_t, NULL, cpu_info, NULL);
     pthread_create(&ram_t, NULL, ram_info, NULL);
     pthread_create(&disk_t, NULL, disk_size, NULL);
