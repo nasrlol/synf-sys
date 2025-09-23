@@ -1,7 +1,10 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.12)
 
-# set the project name
+# Set the project name
 PROJECT(synf)
+
+# Find curl package
+find_package(CURL REQUIRED)
 
 # add the executable
 ADD_EXECUTABLE(main

@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: synf-sys
-        path: build/my_program
+        path: build/main
