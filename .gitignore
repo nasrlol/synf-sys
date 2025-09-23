@@ -57,3 +57,6 @@ build/
 # Config files
 .idea
 .vscode
+
+# Junk
+.DS_Store
