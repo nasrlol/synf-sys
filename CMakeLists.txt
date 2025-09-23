@@ -8,7 +8,7 @@ ADD_EXECUTABLE(main
 
         # OSX Files
         source/osx/modules/cpu.c
-        sourceosx/modules/ram.c
+        source/osx/modules/ram.c
         source/osx/modules/disk.c
         source/osx/modules/device.c
 
