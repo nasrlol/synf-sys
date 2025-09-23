@@ -20,12 +20,10 @@ typedef struct {
 
 } cpu_s;
 
-
-
-void* name();
-void* temperature(bool isCelcius);
-void* frequency();
-
+void name();
+void temperature();
+void freq();
+void cpu_i();
 
 cpu_s _cpu;
 
@@ -61,7 +59,7 @@ void* cpu_name()
     return NULL;
 }
 
-void cpu_temperature(bool on, bool isCelcius, int delay){
+void cpu_temperature(bool on, int delay){
 
     while (1)
     {
@@ -105,6 +103,12 @@ char* cpu_frequency() {
     fclose(fp);
     return buffer;
     }
+    return NULL;
+}
+
+void* cpu_i(){
+    printf("thread is working");
+
     return NULL;
 }
 

@@ -1,16 +1,10 @@
 #include <pthread.h>
-#include "modules/cpu.h"
-#include "modules/ram.h"
-#include "modules/disk.h"
-#include "modules/device.h"
+#include "headers/cpu.h"
+#include "headers/ram.h"
+#include "headers/disk.h"
+#include "headers/device.h"
 #include <curl/curl.h>
 #include <cjson/cJSON.h>
-
-void data_to_json(){
-
-
-
-}
 
 void handler(char *url, cJSON object) {
     CURL *curl;
@@ -35,17 +29,17 @@ void handler(char *url, cJSON object) {
 }
 
 void setup_mt() {
-    pthread_t cpu_t,ram_t,disk_t, device_t;
+    pthread_t cpu_t,ram_t; // disk_t , device_t;
 
-    pthread_create(&cpu_t, NULL, cpu_info, NULL);
-    pthread_create(&ram_t, NULL, ram_info, NULL);
-    pthread_create(&disk_t, NULL, disk_size, NULL);
-    pthread_create(&device_t, NULL, get_device_info, NULL);
+    pthread_create(&cpu_t, NULL, cpu_i, NULL);
+    pthread_create(&ram_t, NULL, ram_i, NULL);
+//    pthread_create(&disk_t, NULL, disk_i, NULL);
+//    pthread_create(&device_t, NULL, device_i, NULL);
 
     pthread_join(cpu_t, NULL);
     pthread_join(ram_t, NULL);
-    pthread_join(disk_t, NULL);
-    pthread_join(device_t, NULL);
+ //   pthread_join(disk_t, NULL);
+ //   pthread_join(device_t, NULL);
 }
 
 #ifdef __APPLE__

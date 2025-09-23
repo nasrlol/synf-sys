@@ -3,9 +3,11 @@
 
 #ifdef __gnu_linux__
 
-float cpu_freq(void);
-char* cpu_name(void);
-void cpu_temperature(void);
+
+void cpu_name();
+void cpu_freq();
+void cpu_temperature();
+void* cpu_i();
 
 #endif
 #ifdef __APPLE__

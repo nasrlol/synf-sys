@@ -2,34 +2,23 @@
 
 #include <stdlib.h>
 #include <stddef.h>
-<<<<<<<< HEAD:source/osx/ram.c
-========
 #include "ram.h"
->>>>>>>> refs/remotes/origin/main:source/osx/modules/ram.c
 #include <stdio.h>
 #include <stdint.h>
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
-void *size();
+void size();
+void av_size();
+void* ram_i();
 
-void *av_size();
-
-/*
-    hw.memsize: 8589934592
-    hw.memsize_usable: 7989493760
- */
 
 ram_s data;
 
 #define D 1073741824
-<<<<<<<< HEAD:source/osx/ram.c
 
-void* size(){
-========
->>>>>>>> refs/remotes/origin/main:source/osx/modules/ram.c
 
-void *size() {
+void size() {
     int64_t size;
     size_t len = sizeof(size);
     if (sysctlbyname("hw.memsize", &size, &len, NULL, 0) < 0)
@@ -39,7 +28,7 @@ void *size() {
     return NULL;
 }
 
-void *av_size() {
+void av_size() {
     int64_t size;
     size_t len = sizeof(size);
     if (sysctlbyname("hw.memsize_usable", &size, &len, NULL, 0) < 0)
@@ -49,13 +38,19 @@ void *av_size() {
     return NULL;
 }
 
-void *ram_info() {
+void ram_info() {
     size();
     av_size();
 
     printf("available ram: %LF\n", data.available);
     printf("total ram: %LF\n", data.total);
 
+    return NULL;
+}
+
+void* ram_i(){
+
+    printf("thread is working");
     return NULL;
 }
 

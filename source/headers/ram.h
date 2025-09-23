@@ -16,9 +16,9 @@ typedef struct {
 #endif
 #ifdef __gnu_linux__
 
-void* size();
-void* av_size();
-void* ram_info();
+void size();
+void av_size();
+void* ram_i();
 
 #endif
 #endif
