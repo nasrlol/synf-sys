@@ -6,21 +6,23 @@ PROJECT(synf)
 # add the executable
 ADD_EXECUTABLE(main
 
-        source/lib/osx/modules/cpu.c
-        source/lib/osx/modules/ram.c
-        source/lib/osx/modules/disk.c
-        source/lib/osx/modules/device.c
+        # OSX Files
+        source/osx/modules/cpu.c
+        sourceosx/modules/ram.c
+        source/osx/modules/disk.c
+        source/osx/modules/device.c
 
-        source/lib/linux/modules/cpu.c
-        source/lib/linux/modules/ram.c
-        source/lib/linux/modules/disk.c
-        source/lib/linux/modules/device.c
+
+        # Linux Files
+        source/linux/modules/cpu.c
+        source/linux/modules/ram.c
+        source/linux/modules/disk.c
+        source/linux/modules/device.c
+
+        # Main File
         source/main.c
 
 )
-
-
-FIND_PACKAGE(CURL REQUIRED)
 
 TARGET_LINK_LIBRARIES(main PRIVATE CURL::libcurl)
 TARGET_INCLUDE_DIRECTORIES(main PRIVATE source/lib/osx source/lib/linux)
