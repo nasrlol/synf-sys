@@ -53,3 +53,7 @@ dkms.conf
 
 # Build files
 build/
+
+# Config files
+.idea
+.vscode

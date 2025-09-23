@@ -1,22 +1,28 @@
 #include <pthread.h>
-#include <stdio.h>
-#include "cpu.h"
-#include "ram.h"
-#include "disk.h"
-#include "device.h"
-
+#include "modules/cpu.h"
+#include "modules/ram.h"
+#include "modules/disk.h"
+#include "modules/device.h"
 #include <curl/curl.h>
+#include <cjson/cJSON.h>
 
-void handler(char* URL){
+void data_to_json(){
 
+
+
+}
+
+void handler(char *url, cJSON object) {
     CURL *curl;
     CURLcode res;
 
     curl_global_init(CURL_GLOBAL_ALL);
     curl = curl_easy_init();
+
     if (curl) {
-        curl_easy_setopt(curl, CURLOPT_URL, URL);
-        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, "name=daniel&project=curl");
+        curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_easy_setopt(curl, CURLOPT_URL, url);
+        curl_easy_setopt(curl, CURLOPT_POSTFIELDS, object);
 
         res = curl_easy_perform(curl);
         if (res != CURLE_OK)
@@ -28,30 +34,26 @@ void handler(char* URL){
     curl_global_cleanup();
 }
 
-#ifdef __APPLE__
+void setup_mt() {
+    pthread_t cpu_t,ram_t,disk_t, device_t;
 
-void setup_mt(){
+    pthread_create(&cpu_t, NULL, cpu_info, NULL);
+    pthread_create(&ram_t, NULL, ram_info, NULL);
+    pthread_create(&disk_t, NULL, disk_size, NULL);
+    pthread_create(&device_t, NULL, get_device_info, NULL);
 
-    pthread_t cpu;
-    pthread_t ram;
-    pthread_t disk;
-    pthread_t device;
-
-    pthread_create(&cpu, NULL, cpu_info , NULL);
-    pthread_create(&ram, NULL, ram_info , NULL);
-    pthread_create(&disk, NULL, disk_size , NULL);
-    pthread_create(&device, NULL, get_device_info , NULL);
-
-    pthread_join(cpu, NULL);
-    pthread_join(ram, NULL);
-    pthread_join(disk, NULL);
-    pthread_join(device, NULL);
-
+    pthread_join(cpu_t, NULL);
+    pthread_join(ram_t, NULL);
+    pthread_join(disk_t, NULL);
+    pthread_join(device_t, NULL);
 }
+
+#ifdef __APPLE__
 
 int main(int argc, char** argv) {
 
     setup_mt();
+    handler("api.nsrddyn.com");
 
     return 0;
 }
