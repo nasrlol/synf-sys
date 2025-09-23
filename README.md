@@ -1,4 +1,4 @@
-# synf-sys
+# Resources gathering tool
 
 System information retrieval software for synf.
 
