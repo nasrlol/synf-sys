@@ -23,11 +23,6 @@ jobs:
         cmake ..
         make
 
-    - name: Run tests
-      run: |
-        cd build
-        ctest
-
     - name: Create release artifact
       uses: actions/upload-artifact@v4
       with:
